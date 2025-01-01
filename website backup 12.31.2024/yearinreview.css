@@ -1,0 +1,74 @@
+
+/* fonts */
+.inria-serif-light {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inria-serif-regular {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-serif-bold {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inria-serif-light-italic {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.inria-serif-regular-italic {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inria-serif-bold-italic {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* text */
+h1 {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.header {
+  font-family: roboto;
+  text-align: center;
+  /* text color change? */
+}
+
+ .scroll-text {
+    position: relative; /* Keeps the container in the normal document flow */
+    width: 100%;        /* Adjust as needed for your layout */
+    min-height: 100vh;      /* Define the height of the scrollable area */
+    box-sizing: border-box;
+    overflow-y: auto;   /* Enables vertical scrolling */
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+} 
+
+
+/* images */
+/* img {
+   position: sticky;
+   margin-top: auto;
+   bottom: 0;
+   left: 50%;
+   max-width: 30%;
+   max-height: 10%;
+   transform: translateX(-10%); /* Adjust to truly center the image */
+   width: 3px;
+   } */ 

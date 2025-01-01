@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year in Review</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="yearinreview.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="header">
+     <h1>Year in Review</h1>
+     <p>Welcome to my 2024! Click the folders for my 2024 wrapped :)<p>
+    </div>
+    
+     <img class="finder" src="empty-finder.png" alt="macbook finder app with no files">
+   <style>
+    .finder {
+     max-width: 40%;  /* Image scales according to its container */
+     height: auto;     /* Maintain aspect ratio */
+     border-radius: 5px; /* rounded corners */
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); 
+     overflow-y: auto;
+     float: right;
+     margin-right: 20px;
+    }
+    
+    body {
+      width: 100vw; 
+      background-image: url("thebellbuoy-cropped.png");
+      background-position: center;
+      background-size: cover;
+      overscroll-behavior: none;
+     /* min-height: 100vh; */
+      background-repeat: no-repeat;
+    } 
+    
+
+ /* DO NOT TOUCH */ 
+  scroll-text {
+    overflow-y: scroll;
+    position: relative;  
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    
+  }
+  scroll-text-wrapper {
+    position: absolute;
+  }
+
+    </style> 
+    
+  <!-- section finder: empty finder app and folder imgs 
+  section popup: blank popup backgrounds
+  each indivdual highlight can be its own section (subject to change) -->
+  
+  <div class="scroll-text">
+    <div class="scroll-text-wrapper">
+      <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
+
+      <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+
+     <p>Here's how you can add an image:</p>
+    
+
+      <p>Here's how to make a list:</p>
+
+      <ul>
+       <li>First thing</li>
+       <li>Second thing</li>
+        <li>Third thing</li>
+     </ul>
+
+
+     <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+    </div>
+  </div>
+
+  </body>
+  
+    <div class="taskbar">
+        <img src="taskbaronly.png" alt="macbook task bar" style="position: fixed; bottom: 5px; left: 50%; transform: translateX(-50%); width: 80%; margin: 0;">
+        
+    </div>
+  
+  
+
+ 
+<!--.background {
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+    border: 10px dashed pink;
+    margin: 0 auto;
+    background-color: black;
+    background-image: url("../images/room32draft.png");
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain;
+    overflow: hidden;
+} -->
+
+
+<!-- to lock image to bottom and have full img showing:
+
+  body {
+    background-image: url("thebellbuoy.png");
+    background-size: cover;
+    background-position: center bottom;
+    height: auto;
+    min-width: 100vh;
+    overflow: hidden; 
+    padding: 0;
+}
+
+html, body {
+  height: 100%; /* Ensure both html and body take up full height of the viewport */
+  
+  padding: 0;
+} -->
+</html>
